@@ -72,6 +72,12 @@ namespace CalculatorApp
             return res;
         }
 
+        public double AverageSimple(double[] array)
+        {
+            double res = array.Average();
+            return res;
+        }
+
 
     }
     class Program
