@@ -60,6 +60,17 @@ namespace CalculatorApp
         }
 
 
+        public double Min(double[] array)
+        {
+            double res = array.Min();
+            return res;
+        }
+
+        public double Max(double[] array)
+        {
+            double res = array.Max();
+            return res;
+        }
 
 
     }
